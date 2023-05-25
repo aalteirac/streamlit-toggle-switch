@@ -1,6 +1,5 @@
 streamlit_toggle/frontend/node_modules/
 streamlit_toggle.egg-info/
 .DS_Store*
-build/
 dist/
 sample_app.py
