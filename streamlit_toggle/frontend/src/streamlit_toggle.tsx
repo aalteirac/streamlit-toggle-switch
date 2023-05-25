@@ -56,7 +56,7 @@ const StreamlitToogle = (props: ComponentProps) => {
   return (
     <ThemeProvider theme={snowflakeTheme}>
     <Typography  component="div" variant="subtitle1" paragraph={false} gutterBottom={false}>
-    <Grid component="label" container justifyContent={justify}>
+    <Grid component="label" container justifyContent={justify}> 
       <Grid item className="beforeText">{label_start}</Grid>
       <Grid item>
       <Switch
