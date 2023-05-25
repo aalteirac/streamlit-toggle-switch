@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="streamlit_toggle_switch_aai",
-    version="4.0.1",
+    version="4.0.2",
     author="Carlos D. Serrano",
     author_email="sqlinsights@gmail.com",
     description="Creates a customizable toggle",

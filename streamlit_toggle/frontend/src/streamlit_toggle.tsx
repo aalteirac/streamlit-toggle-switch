@@ -7,6 +7,7 @@ import React, { useEffect } from "react"
 import { createTheme } from '@material-ui/core/styles';
 import { Typography,Switch, Grid } from "@material-ui/core";
 import { ThemeProvider } from '@material-ui/styles';
+import './style.css'
 
 
 
