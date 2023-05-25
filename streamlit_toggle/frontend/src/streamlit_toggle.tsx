@@ -56,14 +56,14 @@ const StreamlitToogle = (props: ComponentProps) => {
     <ThemeProvider theme={snowflakeTheme}>
     <Typography  component="div" variant="subtitle1" paragraph={false} gutterBottom={false}>
     <Grid component="label" container justifyContent={justify}>
-      <Grid item >{label_start}</Grid>
+      <Grid item className="beforeText">{label_start}</Grid>
       <Grid item>
       <Switch
           checked={state.checkStatus}
           onChange={handleChange}
           name="checkStatus"/>
       </Grid>
-      <Grid item>{label_end}</Grid> 
+      <Grid item className="afterText">{label_end}</Grid> 
     </Grid>
     </Typography>
     </ThemeProvider>
