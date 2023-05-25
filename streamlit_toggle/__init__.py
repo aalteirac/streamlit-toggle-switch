@@ -23,7 +23,8 @@ def st_toggle_switch(label=None, key=None, default_value=False, label_after = Fa
     else:
         label_start = label
         label_end = ''
-        justify = 'flex-end'
+        justify = 'flex-start'
+        # justify = 'flex-end'
 
     toggle_value = _component_func(key=key, 
                                     default_value=default_value,
